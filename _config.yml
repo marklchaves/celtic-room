@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: creating
+title: The Celtic Room
 url: "https://honeydew-aurora.cloudvent.net/"
 baseurl:
 google_analytics_key:
@@ -10,7 +10,7 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: a space for creating and building stuff.
+description: A demo site for The Celtic Room.
 author:
   name:
   email:
