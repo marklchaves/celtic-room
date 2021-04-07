@@ -1,6 +1,8 @@
-# c a u g ht my e y e dev lab
+# Website Design Concept for The Celtic Room
 
-This is a space for building and creating stuff. The main site is hosted on CloudCannon.
+This is a work in progress. Stay tuned.
+
+---
 
 ## I'll Drink to That ;-)
 
