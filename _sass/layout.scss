@@ -24,6 +24,12 @@
 	display: none;
 }
 
+.light-logo {
+	display: inline-block; 
+	width: 100px;
+	height: 84px;
+}
+
 section {
 	background: #fff;
 }
@@ -62,7 +68,10 @@ header {
 		}
 
 		.dark-logo {
-			display: inline;
+			/* display: inline; */
+			display: inline-block; 
+			width: 100px;
+			height: 84px;
 		}
 
 		.light-logo {

@@ -149,6 +149,11 @@ p, address, ul {
 .dark-logo {
   display: none; }
 
+.light-logo {
+  display: inline-block;
+  width: 100px;
+  height: 84px; }
+
 section {
   background: #fff; }
 
@@ -177,7 +182,10 @@ header {
           border-bottom-color: rgba(80, 80, 80, 0.3);
           border-bottom-width: 5px; } }
     header.header-background .dark-logo {
-      display: inline; }
+      /* display: inline; */
+      display: inline-block;
+      width: 100px;
+      height: 84px; }
     header.header-background .light-logo {
       display: none; }
   header a {
