@@ -648,6 +648,6 @@ footer {
       padding: 16px 0;
       margin: 0; } }
 
-#home-image-1 {
+.image--resp-portrait {
   max-width: 650px;
   max-height: 974px; }
