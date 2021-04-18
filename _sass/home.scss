@@ -24,9 +24,16 @@
     border-color: $brand-color;
 	text-shadow: none;
 }
+
 .image--resp-portrait {
   max-width: 650px;
   max-height: 974px;
+}
+
+#home-text-1,
+#home-text-2,
+#home-text-3 {
+    padding-bottom: 5%;
 }
 
 @media (min-width: 1024px) {
@@ -34,7 +41,6 @@
     background-color: var(--white);
     margin-top: var(--neg-margin);
     margin-right: var(--neg-margin);
-    padding-bottom: 3%;
     z-index: 10;
   }
 }
@@ -43,13 +49,24 @@
   #home-section-2 {
     padding-top: 5%;
     background-color: var(--green);
+    .button.alt2 a {
+        background: rgba(255,255,255,0);
+        border: 2px solid var(--white);
+        color: var(--white);
+    }
+    
+    .button.alt2 a:hover {
+        color: $brand-color;
+        border-color: $brand-color;
+        background-color: var(--white);
+        text-shadow: none;
+    }
   }
   #home-text-2 {
     color: var(--white);
     background-color: var(--green);
     margin-bottom: var(--neg-margin);
     margin-left: var(--neg-margin);
-    padding-bottom: 3%;
     z-index: 10;
   }
 }
@@ -62,7 +79,6 @@
     background-color: var(--white);
     margin-bottom: calc(2 * var(--neg-margin));
     margin-right: var(--neg-margin);
-    padding-bottom: 3%;
     z-index: 10;
   }
 }
