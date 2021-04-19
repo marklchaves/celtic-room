@@ -2,10 +2,22 @@
 title: Home
 description: The latest app to help you find new friends with common interests.
 image: /images/celticroom-ady-violin-1-ed-2000w.webp
+mob_image: /images/celticroom-ady-violin-1-ed-720w.webp
 bottom_image: https://source.unsplash.com/user/marklchaves/2000x1322
 ---
 
-<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+<style>
+.hero {
+	background-image: url({% include relative-src.html src=page.mob_image %});
+}
+@media (min-width: 768px) {
+	.hero {
+		background-image: url({% include relative-src.html src=page.image %});
+	}	
+}
+</style>
+
+<section class="hero">
 	<div class="inner-hero text-container text-container--right">
 		<div class="hero-text-container hero-text-container--right">
 			<h1 class="editable">The Celtic Room</h1>
