@@ -10,21 +10,21 @@
 <meta name="generator" content="Jekyll v3.8.4" />
 <meta property="og:title" content="Contact" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Send us a message to find out more!" />
-<meta property="og:description" content="Send us a message to find out more!" />
+<meta name="description" content="Find out where we’re playing and join us!" />
+<meta property="og:description" content="Find out where we’re playing and join us!" />
 <link rel="canonical" href="http://localhost:4000/contact/" />
 <meta property="og:url" content="http://localhost:4000/contact/" />
 <meta property="og:site_name" content="The Celtic Room" />
 <meta property="og:image" content="https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/contact/","headline":"Contact","image":"https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/siteicon.png"}},"description":"Send us a message to find out more!","@type":"WebPage","@context":"http://schema.org"}</script>
+{"url":"http://localhost:4000/contact/","headline":"Contact","image":"https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/siteicon.png"}},"description":"Find out where we’re playing and join us!","@type":"WebPage","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="The Celtic Room" />
 
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192">
-		<link rel="icon" type="image/png" href="/images/favicon.png">
+		<link rel="icon" type="image/png" href="/images/favicon.ico">
 
 		<link rel="stylesheet" href="/css/screen.css">
 		
@@ -72,72 +72,43 @@
 		<section class="hero" style="background-image: url(https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png)">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1 class="editable">Get in touch today</h1>
-			<p class="subtext editable">If you have any questions or queries send us a message and we'll get back to you as soon as we can.</p>
+			<h1 class="editable">Reach out</h1>
+			<h2 class="editable">to us</h2>
+			<p class="subtext editable">Find out where we're playing, what music we play, and how to join us!</p>
+		</div>
+		<div class="hero-text-container">
+			<form action="/contact-success/" method="post" class="contact-form">
+				<input type="hidden" name="_to" value="support@cloudcannon.com">
+				<input type="text" name="_gotcha" style="display: none;">
+	
+				<label for="name">Name</label>
+				<input type="text" name="name" id="name" placeholder="Name">
+	
+				<label for="email">Email Address</label>
+				<input type="email" name="email" id="email" placeholder="Email" required>
+	
+				<label for="message">Message</label>
+				<textarea name="message" id="message" placeholder="Tell us something good."></textarea>
+	
+				<input type="submit" value="Send Message">
+			</form>	
 		</div>
 	</div>
 </section>
 
 <section class="pad">
 	<div class="text-container contact-box">
-		<form action="/contact-success/" method="post" class="contact-form">
-			<input type="hidden" name="_to" value="support@cloudcannon.com">
-			<input type="text" name="_gotcha" style="display: none;">
-
-			<label for="name">Name</label>
-			<input type="text" name="name" id="name" placeholder="Enter your name...">
-
-			<label for="email">Email Address</label>
-			<input type="email" name="email" id="email" placeholder="Enter your email..." required>
-
-			<label for="message">Message</label>
-			<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
-
-			<input type="submit" value="Send Message">
-		</form>
-
 		<div class="contact-details">
+			<h3>Telephone</h3>
+			<address><a href="tel:%2B62+%280%29361+281+814">+62 (0)361 281 814</a></address>
 			<h3>Address</h3>
-			<address><a target="_blank" href="https://www.google.com/maps/place/1+George+Street%2C+Dunedin%2C+New+Zealand">1 George Street, <br>Dunedin, <br>New Zealand</a></address>
+			<address><a target="_blank" href="https://www.google.com/maps/place/The+Wicked+Parrot/@-8.6909128,115.2617616,17z/data=!3m1!4b1!4m5!3m4!1s0x2dd241cbc78edfa3:0x6d8c0f45a1233c3e!8m2!3d-8.6909124!4d115.2639449">The Wicked Parrot Restaurant<br>Jalan Tamblingan<br>Sanur<br>Bali<br>Indonesia</a></address>
 
 			<h3>Email</h3>
-			<p class="editable"><a href="mailto:support@example.com">support@example.com</a></p>
+			<p class="editable"><a href="mailto:mark@caughtmyeye.cc">mark@caughtmyeye.cc</a></p>
 		</div>
 	</div>
 </section>
-
-<div class="map" id="map"></div>
-
-<script>
-	window.mapData = {"latitude":-45.8787605,"longitude":170.5027976,"address":"1 George Street, Dunedin, New Zealand","zoom":13};
-
-	function initMap() {
-		var myOptions = {
-			scrollwheel: false,
-			draggable: false,
-			panControl: false,
-			disableDefaultUI: true,
-			styles: [{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"color":"#f7f1df"}]},{"featureType":"landscape.natural","elementType":"geometry","stylers":[{"color":"#d0e3b4"}]},{"featureType":"landscape.natural.terrain","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi.medical","elementType":"geometry","stylers":[{"color":"#fbd3da"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#bde6ab"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffe15f"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efd151"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"color":"black"}]},{"featureType":"transit.station.airport","elementType":"geometry.fill","stylers":[{"color":"#cfb2db"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#a2daf2"}]}],
-			zoom: window.mapData.zoom,
-			maxZoom: window.mapData.zoom,
-			minZoom: window.mapData.zoom,
-			center: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude),
-			mapTypeId: google.maps.MapTypeId.ROADMAP
-		};
-
-		var map = new google.maps.Map(document.getElementById('map'), myOptions);
-
-		var marker = new google.maps.Marker({
-			map: map,
-			position: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude)
-		});
-
-		google.maps.event.addDomListener(window, 'resize', function() {
-			map.setCenter(myOptions.center);
-		});
-	}
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=&amp;callback=initMap"></script>
 
 
 		<footer>
