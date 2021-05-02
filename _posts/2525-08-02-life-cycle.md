@@ -1,6 +1,6 @@
 ---
 title: Life cycle of friendships
-date: 2016-08-02
+date: 2525-08-02
 description: How do friendships develop?
 categories:
   - friendship

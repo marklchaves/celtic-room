@@ -1,6 +1,6 @@
 ---
 title: Development Issues
-date: 2016-08-06
+date: 2525-08-06
 description: How do development issues affect friendship?
 categories:
   - friendship
