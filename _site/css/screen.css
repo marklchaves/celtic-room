@@ -712,6 +712,6 @@ footer {
 
   #home-text-3 {
     background-color: var(--white);
-    margin-bottom: calc(2 * var(--neg-margin));
+    margin-bottom: calc(1 * var(--neg-margin));
     margin-right: var(--neg-margin);
     z-index: 10; } }
