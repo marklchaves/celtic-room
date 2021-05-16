@@ -8,7 +8,7 @@ categories:
 image: /images/celticroom-waxing-cello-1-2-2000w.webp
 author_staff_member: mark
 ---
-Hashtag eu roof party magna heirloom craft beer, aesthetic tacos direct trade hoodie in et beard. Snackwave ennui YOLO beard ethical tattooed. Retro laborum food truck photo booth. Hella shabby chic coloring book glossier tempor tbh pork belly succulents taxidermy mixtape fingerstache raclette anim austin. Intelligentsia ennui tousled, mustache taxidermy raclette jianbing distillery. Butcher la croix incididunt exercitation veniam.
+Hashtag eu roof party magna heirloom craft beer, aesthetic tacos direct trade hoodie in et beard. Snackwave ennui YOLO beard ethical tattooed. Retro laborum food truck photo booth. Hella shabby chic coloring book glossier tempor tbh pork belly succulents taxidermy mixtape fingerstache raclette anim austin. Intelligentsia ennui tousled, mustache taxidermy raclette jianbing distillery. Hotelier la croix incididunt exercitation veniam.
 
 ![Random](https://source.unsplash.com/1500x1001/?violin)
 

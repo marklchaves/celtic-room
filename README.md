@@ -1,12 +1,12 @@
 # The Celtic Room Template
 
-The Celtic Room Template is perfect for _creatives_ who want a lightweight website with a sleek modern design.
+The Celtic Room Template is perfect for _creatives_ who want a lightweight blog-enabled website with a sleek modern design.
 
 ## Features
 
 - Mobile first
 - Blog enabled
-- Static site powered by Jekyll
+- Static generated site powered by Jekyll
 
 ... more to come.
 
