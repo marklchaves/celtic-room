@@ -1,10 +1,22 @@
 ---
 title: About
 description: We have an extremely talented group of musicians whose sole purpose is to inspire you with music.
-image: /images/celtic-room-freak-group-outside-2000w.webp
+image: /images/celtic-room-freak-group-outside-2-2000w.webp
+mob_image: /images/celtic-room-freak-group-outside-2-720w.webp
 ---
 
-<section class="hero" style="background-image: {% include overlay-filter.html %}, url({% include relative-src.html src=page.image %})">
+<style>
+	.hero {
+		background-image: {% include overlay-filter.html %}, url({% include relative-src.html src=page.mob_image %});
+	}
+	@media (min-width: 768px) {
+		.hero {
+			background-image: {% include overlay-filter.html %}, url({% include relative-src.html src=page.image %});
+		}	
+	}
+</style>
+
+<section class="hero">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
 			<h1 class="editable">Our Story</h1>
