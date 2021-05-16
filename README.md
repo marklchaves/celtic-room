@@ -1,6 +1,18 @@
-# Website Design Concept for The Celtic Room
+# The Celtic Room Template
 
-This is a work in progress. Stay tuned.
+The Celtic Room Template is perfect for _creatives_ who want a lightweight website with a sleek modern design.
+
+## Features
+
+- Mobile first
+- Blog enabled
+- Static site powered by Jekyll
+
+... more to come.
+
+## Build Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/66a82a9a-c4d2-4703-8264-1658744e367e/deploy-status)](https://app.netlify.com/sites/amazing-newton-98281b/deploys)
 
 ---
 
@@ -17,5 +29,7 @@ First take on the hero.
 ---
 
 ## I'll Drink to That ;-)
+
+The Celtic Room Template is free to use. The template's images are subject to copyright.
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D7YARD)
